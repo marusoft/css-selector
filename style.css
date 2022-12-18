@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans";
+  font-size: 32px;
+}
+.paragraph{
+  color: dodgerblue;
+}
+#spanpara{
+  text-align: center;
+  margin-top: 2rem;
+}
+h2, p {
+  font-weight: 900;
+}
+.section-one > p{
+  color: orange;
+}
+.section-one > h4{
+  color: rebeccapurple;
+}
+.btn{
+  display: block;
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  background-color: dodgerblue;
+  border: none;
+  border: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rebeccapurple;
+}
