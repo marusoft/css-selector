@@ -2,37 +2,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Sans";
-  font-size: 32px;
 }
-.paragraph{
+.heading1 {
+  background-color: rebeccapurple;
+  padding: 2rem;
   color: dodgerblue;
 }
-#spanpara{
-  text-align: center;
-  margin-top: 2rem;
-}
-h2, p {
-  font-weight: 900;
-}
-.section-one > p{
+#heading2 {
+  background-color: #efefee;
   color: orange;
-}
-.section-one > h4{
-  color: rebeccapurple;
-}
-.btn{
-  display: block;
-  padding: 20px;
+  padding: 3rem;
   text-align: center;
-  margin: 0 auto;
-  margin-top: 1rem;
-  background-color: dodgerblue;
-  border: none;
-  border: 4px;
+  font-size: 2rem;
+  margin: 4rem;
+}
+div > ul > li {
+  font-size: 3rem;
+}
+div.first-btn button {
+  background-color: red;
   color: #fff;
+  padding: 0.5rem;
+  border: none;
+  margin-bottom: 1rem;
   cursor: pointer;
 }
-.btn:hover{
+div.first-btn button:hover{
+  background-color: dodgerblue;
+}
+div.second-btn button {
   background-color: rebeccapurple;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+div.second-btn button:hover{
+  background-color: orange;
 }
